@@ -1,5 +1,14 @@
 #include "Parser.hpp"
+/*
+std :: regex_token_iterator é um ForwardIterator somente leitura que acessa as correspondências
+ individuais de cada correspondência de uma expressão regular dentro da sequência de caracteres subjacente.
+ Também pode ser usado para acessar as partes da sequência que não foram correspondidas pela expressão 
+ regular especificada (por exemplo, como um tokenizador).
+*/
 
+/*
+pega funcao hmtl , url , src
+*/
 std::set<std::string> Parser::analisa_url(const char *body)
 {
     using       namespace std;
@@ -34,7 +43,7 @@ std::string Parser::analisa_html(const char *data)
     return str.substr(origem, dest-origem+7);
 }
 
-
+// procura pelo diretorio
 std::set<std::string> Parser::analisa_emissor(const char *body)
 {
     using namespace std;
@@ -49,7 +58,7 @@ std::set<std::string> Parser::analisa_emissor(const char *body)
     return sources;
 }
 
-
+// busca pela o endereco do site (url)
 std::set<std::string> Parser::analisa_import(const char *body)
 {
     using namespace std;
