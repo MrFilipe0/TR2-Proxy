@@ -20,7 +20,7 @@ vector<string> Functions_aux::separa(string str, const char * limite)
 
     return tokem;
 }
-
+/*separa as strings em tokens, ou seja, filtra apenas as palavras do texto*/
 vector<string> Functions_aux::separa_antes(string str, const char * limite)
 {
     vector<string> tokem;
@@ -74,7 +74,7 @@ string Functions_aux::le_file(const char*file)
     string res(buffer);
     return res;
 }
-
+// faz a troca de uma string com outra string que deseja encontrar 
 string Functions_aux::replace(string file, const char*from,const char*to)
 {
 

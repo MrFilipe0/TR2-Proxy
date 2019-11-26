@@ -3,7 +3,8 @@
 
 using namespace std;
 
-
+// modulo que faz as requisicoes, quando o usuario tenta acessar o navegador, já com o browser 
+//conectado na mesma  porta proxy e a conexão ja foi estabelecida.
 Request::Request(std::string requestString)
 {
     vector<string> requis_separada = Functions_aux::separa(requestString, "\r\n\r\n");
@@ -28,7 +29,11 @@ Request::Request(std::string requestString)
          camp[aux[0]] = aux[1];
     }
 };
-
+/*
+mOSTRA por padrao
+Mostrar url , metodo (get) , e a conexao = close 
+mostrar ok , data e hora , servidor
+*/
 Request::Request()
 {
     procedimento = "GET";
@@ -64,7 +69,7 @@ std::string Request::constroi_requisicao()
 
 void Request::mostra()
 {
-    cout << "metodo: " << procedimento << endl;
+    cout << "metodo: " << procedimento << endl; // mostra get
     cout << "versao: " << versao << endl;
     cout << "url: " << url << endl;
 
