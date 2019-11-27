@@ -4,6 +4,7 @@
 #include "requisicao_proxy.hpp"
 #include "resposta_proxy.hpp"
 #include "analises.hpp"
+#include "funcoes.hpp"
 using namespace std;
 
 /*

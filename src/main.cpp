@@ -1,4 +1,11 @@
+#include "analises.hpp"
+#include "Spider.hpp"
+#include "servidor_proxy.hpp"
+#include "requisicao_proxy.hpp"
+#include "resposta_proxy.hpp"
 #include "funcoes.hpp"
+#include "proxyui.h"
+
 #include <QApplication>
 
 using namespace std;

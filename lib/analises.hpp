@@ -6,7 +6,7 @@
 #include <string.h>
 #include <list>
 #include <set>
-using namespace std
+using namespace std;
 //classe responsavel por verificar as informações das mensagens trocadas entre servidor e cliente:
 
 class Parser{
