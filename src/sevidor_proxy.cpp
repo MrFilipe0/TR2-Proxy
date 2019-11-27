@@ -1,6 +1,6 @@
 
-#include "Servidor_proxy.hpp"
-#include "Request.hpp"
+#include "servidor_proxy.hpp"
+#include "requisicao_proxy.hpp"
 
 int serverFd, socketClient, socketServidor;
 struct sockaddr_in endereco;

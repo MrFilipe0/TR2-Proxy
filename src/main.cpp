@@ -1,4 +1,4 @@
-#include "Functions_aux.hpp"
+#include "funcoes.hpp"
 #include <QApplication>
 
 using namespace std;

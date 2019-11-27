@@ -1,9 +1,9 @@
-#include "Parser.hpp"
+#include "analises.hpp"
 #include "Spider.hpp"
-#include "Servidor_proxy.hpp"
-#include "Request.hpp"
-#include "Response.hpp"
-#include "Functions_aux.hpp"
+#include "servidor_proxy.hpp"
+#include "requisicao_proxy.hpp"
+#include "resposta_proxy.hpp"
+#include "analises.hpp"
 using namespace std;
 
 /*

@@ -1,9 +1,9 @@
 #include "proxyui.h"
 #include "ui_proxyui.h"
-#include "Servidor_proxy.hpp"
-#include "Request.hpp"
-#include "Response.hpp"
-#include "Functions_aux.hpp"
+#include "servidor_proxy.hpp"
+#include "requisicao_proxy.hpp"
+#include "resposta_proxy.hpp"
+#include "funcoes.hpp"
 #include "Spider.hpp"
 
 
