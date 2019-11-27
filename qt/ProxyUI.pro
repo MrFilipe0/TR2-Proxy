@@ -15,19 +15,19 @@ QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp\
         proxyui.cpp\
-    Parser.cpp \
-    Request.cpp \
-    Response.cpp \
-    Servidor_proxy.cpp \
+    analises.cpp \
+    requisicao_proxy.cpp \
+    resposta_proxy.cpp \
+    servidor_proxy.cpp \
     Spider.cpp \
-    Functions_aux.cpp
+    funcoes.cpp
 
 HEADERS  += proxyui.h\
-    Request.hpp \
-    Response.hpp \
-    Servidor_proxy.hpp \
-    Functions_aux.hpp \
+    requisicao_proxy.hpp \
+    resposta_proxy.hpp \
+    servidor_proxy.hpp \
+    funcoes.hpp \
     Spider.hpp \
-    Parser.hpp
+    analises.hpp
 
 FORMS    += proxyui.ui
