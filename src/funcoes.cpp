@@ -1,4 +1,4 @@
-#include "Functions_aux.hpp"
+#include "funcoes.hpp"
 using namespace std;
 
 vector<string> Functions_aux::separa(string str, const char * limite)

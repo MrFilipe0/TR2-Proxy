@@ -2,7 +2,7 @@
 #define PROXYUI_H
 
 #include <QMainWindow>
-#include "Servidor_proxy.hpp"
+#include "servidor_proxy.hpp"
 
 namespace Ui {
 class proxyui;

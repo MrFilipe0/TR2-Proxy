@@ -1,5 +1,5 @@
-#include "Response.hpp"
-#include "Functions_aux.hpp"
+#include "resposta_proxy.hpp"
+#include "funcoes.hpp"
 using namespace std;
 
 Response::Response(std::string stringResponse)

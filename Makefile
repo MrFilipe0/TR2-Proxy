@@ -45,20 +45,20 @@ OBJECTS_DIR   = ./
 
 SOURCES       = main.cpp \
 		proxyui.cpp \
-		Parser.cpp \
-		Request.cpp \
-		Response.cpp \
-		Servidor_proxy.cpp \
+		analises.cpp \
+		requisicao_proxy.cpp \
+		resposta_proxy.cpp \
+		servidor_proxy.cpp \
 		Spider.cpp \
-		Functions_aux.cpp moc_proxyui.cpp
+		funcoes.cpp moc_proxyui.cpp
 OBJECTS       = main.o \
 		proxyui.o \
-		Parser.o \
-		Request.o \
-		Response.o \
-		Servidor_proxy.o \
+		analises.o \
+		requisicao_proxy.o \
+		resposta_proxy.o \
+		servidor_proxy.o \
 		Spider.o \
-		Functions_aux.o \
+		funcoes.o \
 		moc_proxyui.o
 DIST          = /usr/share/qt4/mkspecs/common/unix.conf \
 		/usr/share/qt4/mkspecs/common/linux.conf \

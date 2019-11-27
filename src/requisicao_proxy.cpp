@@ -1,5 +1,5 @@
-#include "Request.hpp"
-#include "Functions_aux.hpp"
+#include "requisicao_proxy.hpp"
+#include "funcoes.hpp"
 
 using namespace std;
 
