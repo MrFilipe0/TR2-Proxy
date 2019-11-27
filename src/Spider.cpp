@@ -158,8 +158,8 @@ void Spider::constroi_arvore(int niveis)
 
 				if(response.estado_codigo == "200 OK")
 				{
-					html[*url]           = response.dado;
-					set<string> todosUrl = Parser::analisa_url(response.dado.c_str());
+					html[*url]           = response.data;
+					set<string> todosUrl = Parser::analisa_url(response.data.c_str());
 					set<string> url_local;
 
 					for (std::set<string>::iterator it = todosUrl.begin(); it != todosUrl.end(); ++it)
